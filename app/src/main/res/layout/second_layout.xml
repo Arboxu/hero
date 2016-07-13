@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <ImageView
+        android:id="@+id/back"
+        android:layout_marginTop="8dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id = "@+id/details"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/jinru"
+        />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+       />
+    <RelativeLayout
+        android:id="@+id/id_gallery"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <EditText
+            android:id = "@+id/inputContent"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_marginRight="50dp"
+            android:textSize="23dip"
+            android:hint = " 请输入您要搜索的英雄名"
+            android:singleLine="true"
+            android:background = "@drawable/bg_edittext"
+            />
+        <ImageView
+            android:id="@+id/search"
+            android:layout_toRightOf="@+id/inputContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="68dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_alignTop="@id/inputContent"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/search"
+            android:layout_alignBottom="@+id/inputContent"
+             />
+
+
+
+    </RelativeLayout>
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="200dp"
+
+        android:id ="@+id/RadioG"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="所有英雄"
+            android:textSize="25dp"
+            android:paddingLeft="0dp"
+            android:id="@+id/cbtn_allhero"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刺客"
+            android:textSize="25dp"
+            android:id="@+id/cbtn_assassin"
+            android:paddingLeft="0dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="战士"
+            android:textSize="25dp"
+            android:id="@+id/cbtn_fighter"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="法师"
+            android:textSize="25dp"
+            android:id="@+id/cbtn_ap"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="坦克"
+            android:textSize="25dp"
+            android:id="@+id/cbtn_tank"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="射手"
+            android:textSize="25dp"
+            android:id="@+id/cbtn_adc"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="辅助"
+            android:textSize="25dp"
+            android:id="@+id/cbtn_support"
+            android:layout_marginLeft="20dp"/>
+    </RadioGroup>
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/GridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="160dp"
+        android:padding="10dip"
+        android:verticalSpacing = "0dip"
+        android:horizontalSpacing="20dp"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/id_gallery"
+        >
+    </GridView>
+
+    <TextView
+        android:id="@+id/separatebar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#616161"
+        android:layout_alignBottom="@+id/RadioG"
+        android:layout_alignEnd="@+id/RadioG" />
+
+</RelativeLayout>

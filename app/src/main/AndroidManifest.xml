@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.testintent" >
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vn"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <receiver
+            android:name = ".MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name = "com.example.administrator.MY_BROADCAST" />
+
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SecondActivity"
+            >
+            <intent-filter>
+                <action android:name = "android.intent.action.DIAL"/>
+
+            </intent-filter>
+
+            </activity>
+        <activity android:name=".DetailsActivity"
+            >
+            <intent-filter>
+                <action android:name = "android.intent.action.DIAL"/>
+
+            </intent-filter>
+
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

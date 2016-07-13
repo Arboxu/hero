@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/big22000"
+        android:id="@+id/bg">
+    </ImageView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/bg"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="200dp"
+        android:id ="@+id/RadioG2"
+        android:gravity="center"
+        android:background="#dad9d9"
+
+        >
+        <RadioButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:text="技能"
+            android:button="@null"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/radio"
+            android:paddingLeft="0dp"
+            android:id="@+id/rbtn_skill"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:text="出装"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textColor="@drawable/radio"
+            android:id="@+id/rbtn_equip"
+            android:paddingLeft="1dp"
+
+            />
+
+        <RadioButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:paddingLeft="0dp"
+            android:text="故事"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textColor="@drawable/radio"
+            android:textSize="15dp"
+            android:id="@+id/rbtn_story"
+            />
+        <RadioButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:paddingLeft="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@drawable/radio"
+            android:text="攻略"
+            android:button="@null"
+            android:textSize="15dp"
+            android:id="@+id/rbtn_strategy"
+            />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/dtfavorite"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/favorite"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id = "@+id/dtBack"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/nav_back_normal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="寒冰射手"
+                android:textSize="20dip"
+                android:textColor="#eccd3a"
+                android:layout_alignTop="@+id/dtfavorite"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/heroName"
+                android:text="艾希"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="65dp"
+                android:textSize="25dip"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/comefrom"
+                android:text="来自某地某地"
+                android:textColor="#ffffff"
+                android:textSize="15dip"
+                android:layout_alignBottom="@+id/heroName"
+                android:layout_toEndOf="@+id/heroName"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/herotype"
+                android:textSize="17dp"
+                android:text="射手   ADC   辅助"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/heroName"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:id="@+id/ability"
+                android:layout_below="@+id/herotype"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gong"
+                    android:text="攻"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginStart = "10dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src = "@drawable/clock_icon"
+                    android:layout_marginStart="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:id="@+id/ability2"
+                android:layout_toRightOf="@+id/ability"
+                android:layout_below="@+id/herotype"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fa"
+                    android:text="法"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginStart = "10dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src = "@drawable/clock_icon"
+                    android:layout_marginStart="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:id="@+id/ability3"
+                android:layout_toRightOf="@+id/ability2"
+                android:layout_below="@+id/herotype"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fang"
+                    android:text="防"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginStart = "10dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src = "@drawable/clock_icon"
+                    android:layout_marginStart="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:id="@+id/priceLayout"
+                android:layout_below="@+id/ability"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="金币:"
+                    android:textColor="#05a2de"
+                    android:textSize="13dp"
+                    android:layout_marginStart = "10dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/coin"
+                    android:text="450"
+                    android:textColor="#05a2de"
+                    android:textSize="15dp"
+                    android:layout_marginStart = "10dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点券:"
+                    android:textColor="#05a2de"
+                    android:textSize="13dp"
+                    android:layout_marginStart = "10dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/coupon"
+                    android:text="1000"
+                    android:textColor="#05a2de"
+                    android:textSize="15dp"
+                    android:layout_marginStart = "10dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+</RelativeLayout>
