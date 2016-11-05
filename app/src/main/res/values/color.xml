@@ -3,4 +3,12 @@
     <drawable name="black">#0a0a0a</drawable>
     <drawable name="green">#048ec2</drawable>
     <drawable name="gray">#ccc</drawable>
+    <drawable name="dipGray">#292929</drawable>
+    <drawable name="red">#f21a1a</drawable>
+    <color name="mygreen">#255149</color>
+    <color name="alpha_bg">#00000000</color>
+    <color name="yellow">#99b71f</color>
+    <color name="adcColor">#33169e</color>
+    <color name="apColor">#20837a</color>
+
 </resources>

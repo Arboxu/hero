@@ -1,0 +1,25 @@
+# ninja log v5
+1	1221	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+1221	2258	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+10	153	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+153	800	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+2	124	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+124	252	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+3	96	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+96	177	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+16	210	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+210	358	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+23	852	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+852	2351	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+12	135	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+135	822	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+14	145	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+145	294	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+11	143	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+144	700	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+9	122	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+122	255	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+12	128	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+129	319	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427
+9	136	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e847efc36df8cbb9
+136	301	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/x86_64/libPWEncry.so	edf4ae96c0648427

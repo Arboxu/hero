@@ -1,0 +1,5 @@
+# ninja log v5
+1	732	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8af2b73e07ac2dd3
+733	1350	0	E:/AndroidCode/hero/app/build/intermediates/cmake/release/obj/mips64/libPWEncry.so	491973e68aafc022
+14	1570	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8af2b73e07ac2dd3
+1570	2202	0	E:/AndroidCode/hero/app/build/intermediates/cmake/release/obj/mips64/libPWEncry.so	491973e68aafc022

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:scrollbars="vertical"
+        >
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical"
+            android:layout_marginLeft= "5dp"
+            android:layout_marginRight="4dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_likeText"
+                android:textSize = "20sp"
+                android:textColor= "#201f1f"
+                android:drawableLeft="@drawable/battle_death_icon_gray"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft= "5dp"
+                >
+                <ImageView
+                    android:id="@+id/like1Img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:id="@+id/like1Dsc"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft= "5dp"
+                >
+                <ImageView
+                    android:id="@+id/like2Img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    />
+                <TextView
+                    android:id="@+id/like2Dsc"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_hateText"
+                android:textSize = "20sp"
+                android:textColor= "#201f1f"
+                android:drawableLeft="@drawable/battle_death_icon_gray"
+                />
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft= "5dp"
+                >
+                <ImageView
+                    android:id="@+id/hate1Img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:id="@+id/hate1Dsc"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft= "5dp"
+                >
+                <ImageView
+                    android:id="@+id/hate2Img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    />
+                <TextView
+                    android:id="@+id/hate2Dsc"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+            </LinearLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation = "vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft= "5dp"
+                android:layout_marginRight="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "20sp"
+                    android:textColor= "#201f1f"
+                    android:text="@string/str_backgroundStory"
+                    android:drawableLeft="@drawable/battle_death_icon_gray"
+                    />
+                <ScrollView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:fadingEdge="vertical">
+                    <TextView
+                        android:scrollbars="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/storyDsc"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </ScrollView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

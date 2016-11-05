@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_margin="5dp"
+    >
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/titleImageView"
+        android:background="@drawable/loading_pic"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/titleIntroTime"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/titleIntro"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+
+             />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

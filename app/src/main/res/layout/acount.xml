@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.arbo.hero.PlayVedioActivity"
+    android:orientation = "vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#104038"
+        >
+        <ImageButton
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_btn"
+            android:background="@drawable/back"
+            />
+        <LinearLayout
+            android:layout_toRightOf="@+id/back_btn"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/serverLayout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            >
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="15dp"
+                android:text="@string/str_servername"
+                android:textColor="#dedcdc"
+                />
+            <com.arbo.hero.spinner.CustomerSpinner
+                android:layout_width="170dp"
+                android:layout_height="35dp"
+                android:id = "@+id/spin_server"
+                android:background="@drawable/bg_spinner">
+            </com.arbo.hero.spinner.CustomerSpinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/back_btn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below = "@id/serverLayout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            >
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/str_lolname"
+                android:textSize="15dp"
+                android:textColor="#dedcdc"
+                />
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="35dp"
+                android:textColor="#1d1c1c"
+                android:textSize="15dp"
+                android:id="@+id/showServerName"
+                android:textColorHint="#414141"
+                android:background = "@drawable/bg_spinner"
+                android:hint  = "@string/str_lolnameInputHint"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="#f0f0f0"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/search_btn"
+            android:layout_marginEnd="10dp" />
+        <ImageButton
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_btn"
+            android:background="@drawable/search_icon"
+            />
+    </RelativeLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation ="horizontal"
+        android:background="#104038"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_char1"
+            android:textColor="#f0f0f0"
+            android:background="@color/transparent"
+            android:id="@+id/char1"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_char2"
+            android:textColor="#f0f0f0"
+            android:background="@color/transparent"
+            android:id="@+id/char2"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_char3"
+            android:textColor="#f0f0f0"
+            android:background="@color/transparent"
+            android:id="@+id/char3"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_char4"
+            android:textColor="#f0f0f0"
+            android:background="@color/transparent"
+            android:id="@+id/char4"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_char5"
+            android:textColor="#f0f0f0"
+            android:background="@color/transparent"
+            android:id="@+id/char5"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#104038"
+        />
+    <!--<RadioGroup-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:id ="@+id/RadioG2"-->
+        <!--android:gravity="center"-->
+        <!--android:background="#dad9d9"-->
+        <!--&gt;-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/btn_simpleType"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:text="简易版"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textColor="@drawable/loadtype"-->
+            <!--android:button="@null"-->
+            <!--android:background="@drawable/bg_edittext"-->
+            <!--android:gravity="center_horizontal|center_vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:checked="true"-->
+            <!--/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/btn_webType"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:text = "网页版"-->
+            <!--android:textSize="12dp"-->
+            <!--android:button="@null"-->
+            <!--android:textColor="@drawable/loadtype"-->
+            <!--android:background="@drawable/bg_edittext"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_horizontal|center_vertical"-->
+            <!--/>-->
+    <!--</RadioGroup>-->
+
+    <FrameLayout
+        android:layout_below="@+id/serverName"
+        android:id="@+id/power_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+    </FrameLayout>
+
+    <WebView
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/serverName"
+        android:id="@+id/power_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50sp" />
+
+
+
+
+</LinearLayout>

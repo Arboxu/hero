@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mygreen"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/login_logo"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/iv"
+    android:layout_alignEnd="@+id/iv"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_splashText1"
+        android:textColor="#f0f0f0"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_splashText2"
+        android:textColor="#f0f0f0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_splashText3"
+        android:textColor="#f0f0f0"
+        />
+
+</LinearLayout>
+
+
+</RelativeLayout>

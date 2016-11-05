@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:anroid="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.arbo.hero.util.ClearEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        />
+    <com.arbo.hero.util.EmailAutoCompleteTextView
+        android:id="@+id/et_mail"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="注册的邮箱"
+        android:textColor="#746161"
+        android:textColorHint="#878787"
+        android:drawableLeft="@drawable/blank_icon"
+        android:drawableRight="@drawable/common_searchbar_clear"
+        android:background = "@drawable/login_edittext"
+        />
+    <com.arbo.hero.util.ClearEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入新密码"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_verify"
+        android:text="前往验证邮箱"
+        />
+
+
+
+
+</LinearLayout>

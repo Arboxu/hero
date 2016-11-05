@@ -1,0 +1,25 @@
+# ninja log v5
+2	1454	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+1454	2926	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+8	202	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+202	328	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+2	218	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+219	322	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+3	623	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+623	756	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+12	224	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+224	351	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+53	615	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+615	793	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+15	2041	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+2041	2228	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+10	221	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+222	346	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+8	1092	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+1092	2882	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+6	365	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+365	524	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+11	218	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+218	360	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86
+9	303	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	8ce903c424d66e
+303	456	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips/libPWEncry.so	e184f0ff89c97f86

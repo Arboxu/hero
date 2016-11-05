@@ -1,0 +1,25 @@
+# ninja log v5
+79	532	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+532	652	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+20	423	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+423	568	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+4	859	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+859	960	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+3	1350	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+1350	1856	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+3	567	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+567	684	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+20	1346	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+1346	1783	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+22	2044	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+2044	2372	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+34	604	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+604	747	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+13	2881	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+2882	3388	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+3	1945	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+1945	2484	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+11	916	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+916	1571	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800
+16	1867	0	CMakeFiles/PWEncry.dir/PWEncry.c.o	e27ad2d8cc6cb6bf
+1867	3229	0	E:/AndroidCode/hero/app/build/intermediates/cmake/debug/obj/mips64/libPWEncry.so	9e51f8ee088f5800

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    >
+
+    <!--以下RelativeLayout用于将 “操作技巧”等子布局放在一起-->
+
+    <ScrollView
+        android:id = "@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:scrollbars="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            >
+
+            <!--以下LinerLayout是操作技巧-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/skill_Layout"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:id="@+id/operateskill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_operateSkill"
+                    android:textSize = "20sp"
+                    android:textColor= "#201f1f"
+                    android:drawableLeft="@drawable/battle_death_icon_gray"
+                     />
+                <TextView
+                    android:id="@+id/operateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "16sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="20dp"
+                    />
+            </LinearLayout>
+
+            <!--以下LinerLayout是团战思路-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/skill_Layout"
+                android:orientation="vertical"
+                android:id = "@+id/temwork_Layout"
+                >
+                <TextView
+                    android:id="@+id/team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_defenseSkill"
+                    android:textSize = "20sp"
+                    android:textColor= "#201f1f"
+                    android:drawableLeft="@drawable/battle_death_icon_gray"
+                     />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/team_workText"
+                    android:text=""
+                    android:textSize = "16sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="20dp"
+                    />
+            </LinearLayout>
+
+            <!--以下LinerLayout为 技能介绍 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id = "@+id/introduce_Layout"
+                android:layout_below="@+id/temwork_Layout"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/skill_introduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_skillIntro"
+                    android:textSize = "20sp"
+                    android:textColor= "#201f1f"
+                    android:drawableLeft="@drawable/battle_death_icon_gray"
+                    />
+
+                <!--以下LinerLayout为 技能介绍 的图片布局-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+
+                    >
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/beidong"
+                        android:clickable="true"
+                        android:layout_margin="5dp"
+                        android:background="#00000000"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/SkillQ"
+                        android:clickable="true"
+                        android:layout_margin="5dp"
+                        android:background="#00000000"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/SkillW"
+                        android:clickable="true"
+                        android:layout_margin="5dp"
+                        android:background="#00000000"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/SkillE"
+                        android:clickable="true"
+                        android:layout_margin="5dp"
+                        android:background="#00000000"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/SkillR"
+                        android:clickable="true"
+                        android:layout_margin="5dp"
+                        android:background="#00000000"
+                        />
+                </LinearLayout>
+
+                <!--以下LinerLayout为技能介绍的文字布局-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#e6e5e5"
+                    android:layout_marginRight="5dp"
+                    >
+                    <TextView
+                        android:id="@+id/skill_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textColor="#201f1f"
+                        android:layout_marginStart="15dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skill_Desc"
+                        android:text=""
+                        android:textSize = "16sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="5dp"
+                        />
+                </LinearLayout>
+                <!--end from 146 -->
+            </LinearLayout>
+            <!--end from 75 -->
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

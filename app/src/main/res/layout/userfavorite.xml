@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/daomei"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:background="@color/transparent_background"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <com.github.mikephil.charting.charts.PieChart
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/piechart"
+                    />
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/legendlayout"
+                    android:orientation="vertical"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/heronum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="总共 个英雄，价值："
+                    android:textColor="#f0f0f0"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_coin"
+                        />
+                    <TextView
+                        android:id="@+id/coinnum"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textColor="#f0f0f0"
+                        />
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_coupou"
+                        />
+                    <TextView
+                        android:id="@+id/couponnum"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textColor="#f0f0f0"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/favoritegridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="auto_fit"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing = "0dip"
+        android:gravity="center"
+        >
+    </GridView>
+
+</LinearLayout>

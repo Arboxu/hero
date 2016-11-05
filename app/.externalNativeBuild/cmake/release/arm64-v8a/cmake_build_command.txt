@@ -1,0 +1,14 @@
+Executable : C:\Android-SDK\cmake\3.6.3155560\bin\cmake.exe
+arguments : 
+-HE:\AndroidCode\hero\app\src\main\jni
+-BE:\AndroidCode\hero\app\.externalNativeBuild\cmake\release\arm64-v8a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=C:\Android-SDK\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\AndroidCode\hero\app\build\intermediates\cmake\release\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=C:\Android-SDK\cmake\3.6.3155560\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=C:\Android-SDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=21
+jvmArgs : 
+

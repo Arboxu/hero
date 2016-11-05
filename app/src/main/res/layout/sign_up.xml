@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/registeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#255149"
+        >
+        <ImageButton
+            android:id="@+id/back_to_login1"
+            android:layout_marginLeft="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back_login"
+            />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_registTitle"
+            android:textColor="#c7c7c7"
+            android:textSize="22sp"
+            />
+    </RelativeLayout>
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/championseparator"
+        />
+
+
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation = "vertical"
+        >
+        <com.arbo.hero.util.ClearEditText
+            android:id="@+id/usrnametv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_lolnameInputHint"
+            android:textColorHint="#c0c0c0"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/user_icon2"
+            android:drawableRight="@drawable/common_searchbar_clear"
+            android:background = "@drawable/login_edittext"
+            >
+        </com.arbo.hero.util.ClearEditText>
+        <com.arbo.hero.util.ClearEditText
+            android:id="@+id/psw_first"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/str_regInputHint2"
+            android:textColorHint="#c0c0c0"
+            android:textColor="@drawable/dipGray"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/psw_icon"
+            android:drawableRight="@drawable/common_searchbar_clear"
+            android:background = "@drawable/login_edittext"
+            android:layout_centerVertical="true"
+            >
+        </com.arbo.hero.util.ClearEditText>
+        <com.arbo.hero.util.ClearEditText
+            android:id="@+id/psw_confirm"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/dipGray"
+            android:textColorHint="#c0c0c0"
+            android:hint="@string/str_regInputHint3"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/psw_icon"
+            android:drawableRight="@drawable/common_searchbar_clear"
+            android:background = "@drawable/login_edittext"
+            android:layout_centerVertical="true"
+            >
+        </com.arbo.hero.util.ClearEditText>
+        <com.arbo.hero.util.EmailAutoCompleteTextView
+            android:id="@+id/emailstv"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_regInputHint4"
+            android:textColorHint="#c0c0c0"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/mail_icon"
+            android:drawableRight="@drawable/common_searchbar_clear"
+            android:background = "@drawable/login_edittext"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_regshowPsw"
+            android:textSize="15sp"
+            android:id="@+id/cbx_showpsw"
+            android:textColor="#9e9d9d"
+            android:layout_alignBottom="@+id/back_to_login2"
+            />
+        <Button
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/str_regbackToLogin"
+            android:textSize="15sp"
+            android:textColor="#9e9d9d"
+            android:id="@+id/back_to_login2"
+            android:background="#00000000"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_registe"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="@string/str_regist"
+        android:textColor="#16584d"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>

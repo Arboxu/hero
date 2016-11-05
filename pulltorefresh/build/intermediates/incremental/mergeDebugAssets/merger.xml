@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\AndroidCode\hero\pulltorefresh\assets"/><source path="E:\AndroidCode\hero\pulltorefresh\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\AndroidCode\hero\pulltorefresh\src\debug\assets"/></dataSet></merger>
